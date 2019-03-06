@@ -1,0 +1,10 @@
+{
+  "simulation": "com.github.andrepnh.pstream.hazard.stress.test.scenarios.SomewhatQuickOperationParallelVersion",
+  "simulationId": "somewhatquickoperationparallelversion",
+  "start": 1551817483894,
+  "description": "",
+  "scenarios": ["Somewhat quick operation (parallel)"],
+  "assertions": [
+
+  ]
+}

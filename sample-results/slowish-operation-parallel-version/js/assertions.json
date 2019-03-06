@@ -1,0 +1,10 @@
+{
+  "simulation": "com.github.andrepnh.pstream.hazard.stress.test.scenarios.SlowishOperationParallelVersion",
+  "simulationId": "slowishoperationparallelversion",
+  "start": 1551817334276,
+  "description": "",
+  "scenarios": ["Slowish operation (parallel)"],
+  "assertions": [
+
+  ]
+}

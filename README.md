@@ -39,6 +39,8 @@ All tests are performed against a single Spring Boot app with default configurat
 
 The load tests simulate two operations: a somewhat quick operation (`targetMillis=50`) and a slower operation (`targetMillis=200`, the default value). Each operation is performed using sequential or parallel streams according to the scenario we simulate. All scenarios exercise the same load: we increase the number of API users by one every second until we reach the max (n_cores * 8). Each simulation will run for roughly 1 minute.
 
+If you want to take a closer look, I've included the reports I got when testing on my machine under `sample-results`.
+
 #### Quick operation running in parallel
 
 The first scenario is here to show that, when running isolated, parallel stream does give better performance (at least for the kind of work we're doing). As mentioned before the sequential version should take 50+ milliseconds, but the parallel version is slightly better on my machine.
