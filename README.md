@@ -80,7 +80,7 @@ There are other bad practices for parallelism on web applications worth mentioni
 
 * Anything that uses `ForkJoinPool`, no matter the pool size
 * Defining thread pools at component level
-* Writing my own thread pool instead of using the ones provided by frameworks
+* Writing your own thread pool instead of using the ones provided by frameworks
 
 ### ForkJoinPool
 
