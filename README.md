@@ -108,7 +108,7 @@ I believe this usually goes like this: someone notices a slow component, see tha
 
 When it comes to parallelism, you want the smallest amount of _active_ threads that push overall CPU usage across all cores to something around 70%.
 
-### Maintaining my own thread pool
+### Maintaining your own thread pool
 
 Why would I bother writing, maintaining and tunning my own thread pool if pretty much every framework already comes with one? Spring has the pool used for `@Async`, EJB has the pool used by `@Asynchronous`, RxJava and Reactor both have their schedulers, async IO libraries also come with their thread pools.
 
