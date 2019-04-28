@@ -27,7 +27,7 @@ But then one could say it might be ok for some application, because they're not 
 
 Making sure we're not using `Stream.parallel()` is quite simple, just a quick search on the code base and you can check if you're parallel-free. You can even setup a static code analysis rule to automate that! On the other hand, the maintenance overhead associated with proper usage just doesn't pay off in my opinion, specially since there's plenty alternatives out there to parallelize work in web applications.
 
-If you want to know more about the benchmarks just scroll down. For more bad practices on web applications [click here](##more-thread-abuse), and to run the benchmarks on your own you can go to the [Running Locally](#running-locally) section.
+If you want to know more about the benchmarks just scroll down. For more bad practices on web applications [click here](#more-thread-abuse), and to run the benchmarks on your own you can go to the [Running Locally](#running-locally) section.
  
 ## Benchmarks
 
